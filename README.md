@@ -1,3 +1,8 @@
+# Kaggle: What's cooking?
+
+Repository containing ideas and code for kaggle's [What's
+Cooking?](https://www.kaggle.com/c/whats-cooking) competition.
+
 ## Use recipe ingredients to categorize the cuisine
 
 _Picture yourself strolling through your local, open-air market... What do you
@@ -21,25 +26,25 @@ In the dataset, we include the recipe id, the type of cuisine, and the list of
 ingredients of each recipe (of variable length). The data is stored in JSON
 format. 
 
-An example of a recipe node in train.json:
+An example of a recipe node in `train.json`:
 
 ```json
- {
- "id": 24717,
- "cuisine": "indian",
- "ingredients": [
-     "tumeric",
-     "vegetable stock",
-     "tomatoes",
-     "garam masala",
-     "naan",
-     "red lentils",
-     "red chili peppers",
-     "onions",
-     "spinach",
-     "sweet potatoes"
- ]
- }
+{
+    "id": 24717,
+    "cuisine": "indian",
+    "ingredients": [
+        "tumeric",
+        "vegetable stock",
+        "tomatoes",
+        "garam masala",
+        "naan",
+        "red lentils",
+        "red chili peppers",
+        "onions",
+        "spinach",
+        "sweet potatoes"
+    ]
+}
 ```
 
 In the test file `test.json`, the format of a recipe is the same as train.json,
